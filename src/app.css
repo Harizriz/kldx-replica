@@ -3,9 +3,11 @@
 @import 'tailwindcss/utilities';
 @import '@fontsource/fira-mono';
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet');
 
 :root {
 	--font-body: 'Work Sans', sans-serif;
+	--font-serif: 'Abril Fatface', serif;
 	--font-mono: 'Fira Mono', monospace;
 	--color-bg-0: rgb(202, 216, 228);
 	--color-bg-1: #1f215c;
@@ -31,6 +33,12 @@ body {
 			rgba(255, 255, 255, 0) 100%
 		),
 		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%); */
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--font-serif);
 }
 
 h1,
