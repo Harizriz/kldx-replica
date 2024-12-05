@@ -43,8 +43,10 @@ h3 {
 
 h1,
 h2,
-p {
+p,
+li {
 	font-weight: 400;
+	color: white;
 }
 
 p {
@@ -66,7 +68,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
 pre {
